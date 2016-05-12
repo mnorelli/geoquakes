@@ -10,12 +10,20 @@ $(function(){
 
   var lat = 37.782591
   var lon = -122.453249
+  var mapDOM = document.getElementById('map')
 
   function initMap(){
-    map = new google.maps.Map(document.getElementById('map'), {
+    map = new google.maps.Map(mapDOM, {
       center: {lat: lat, lng: lon},
       zoom: 4
     })
+
+  var marker =  new google.maps.Marker({
+    map: map,
+    title: "Hello!",
+    animation: google.maps.Animation.DROP,
+    position: {lat: 34.156660, lng: -118.429627}
+  })
   }
 
   $quakesList = $('#info');
