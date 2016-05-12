@@ -5,7 +5,18 @@ var map;
 var template;
 
 
+
 $(function(){
+
+  var lat = 37.782591
+  var lon = -122.453249
+
+  function initMap(){
+    map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: lat, lng: lon},
+      zoom: 4
+    })
+  }
 
   $quakesList = $('#info');
 
@@ -22,6 +33,11 @@ $(function(){
    .fail(function(error){
     console.log("problem: "+error)
    })
+
+   initMap();
+
+
+
 
 });
 
