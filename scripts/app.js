@@ -12,20 +12,6 @@ $(function(){
   var lon = -122.453249
   var mapDOM = document.getElementById('map')
 
-  function initMap(){
-    map = new google.maps.Map(mapDOM, {
-      center: {lat: lat, lng: lon},
-      zoom: 4
-    })
-
-  var marker =  new google.maps.Marker({
-    map: map,
-    title: "Hello!",
-    animation: google.maps.Animation.DROP,
-    position: {lat: 34.156660, lng: -118.429627}
-  })
-  }
-
   $quakesList = $('#info');
 
   var source   = $("#quake-template").html();
@@ -42,7 +28,33 @@ $(function(){
     console.log("problem: "+error)
    })
 
-   initMap();
+  function initMap(){
+    map = new google.maps.Map(mapDOM, {
+      center: {lat: lat, lng: lon},
+      zoom: 4
+    })
+
+    var image = {
+      url: 'http://labs.google.com/ridefinder/images/mm_20_red.png',
+      // url: 'http://google-maps-icons.googlecode.com/files/teal01.png',
+      // This marker is 20 pixels wide by 32 pixels high.
+      // size: new google.maps.Size(20, 32),
+      // The origin for this image is (0, 0).
+      // origin: new google.maps.Point(0, 0),
+      // The anchor for this image is the base of the flagpole at (0, 32).
+      // anchor: new google.maps.Point(0, 32)
+    };
+
+    var marker =  new google.maps.Marker({
+      map: map,
+      icon: image,
+      title: "Hello!",
+      animation: google.maps.Animation.DROP,
+      position: {lat: 34.156660, lng: -118.429627}
+    })
+    }
+//
+  initMap();
 
 
 
