@@ -87,8 +87,7 @@ $(function(){
 
 });
 
-<<<<<<< HEAD
-=======
+
     // OPTION 1: Write function mungeData()
 
 
@@ -144,4 +143,3 @@ $(function(){
 
 
 
->>>>>>> e135bffd2fc5a9a920221fd077e527a7ff04502f
