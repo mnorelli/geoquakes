@@ -1,0 +1,51 @@
+{"campuses" : [
+
+    {"San Francisco" :  [
+        { "geometry": { "coordinates": [-122.45, 37.77] }},
+        { "properties": { "title": "General Assembly, San Francisco, CA" }}
+    ]},  
+    {"Washington, DC": [
+        { "geometry": { "coordinates": [-77.036871, 38.907192] }},
+        { "properties": { "title": "General Assembly, Washington, DC" }}
+    ]},
+    {"Boston": [
+        { "geometry": { "coordinates": [-122.45, 37.77] }},
+        { "properties": { "title": "General Assembly, Boston, MA" }}
+    ]},
+    {"New York": [
+        { "geometry": { "coordinates": [-74.005941, 40.712784] }},
+        { "properties": { "title": "General Assembly, New York, NY" }}
+    ]},
+    {"Chicago": [
+        { "geometry": { "coordinates": [-87.629798, 41.878114] }},
+        { "properties": { "title": "General Assembly, Chicago, IL" }}
+    ]},
+    {"Seattle": [
+        { "geometry": { "coordinates": [-122.332071, 47.606209] }},
+        { "properties": { "title": "General Assembly, Seattle, WA" }}
+    ]},
+    {"Los Angeles": [
+        { "geometry": { "coordinates": [-118.243685, 34.052234] }},
+        { "properties": { "title": "General Assembly, Los Angeles, CA" }}
+    ]},
+    {"Hong Kong": [
+        { "geometry": { "coordinates": [114.109497, 22.396428] }},
+        { "properties": { "title": "General Assembly, Hong Kong, China" }}
+    ]},
+    {"Melbourne": [
+        { "geometry": { "coordinates": [144.963280, -37.81] }},
+        { "properties": { "title": "General Assembly, Melbourne, AU" }}
+    ]},
+    {"Sydney": [
+        { "geometry": { "coordinates": [151.206990, -33.867487] }},
+        { "properties": { "title": "General Assembly, Sydney, AU" }}
+    ]},
+    {"Singapore": [
+        { "geometry": { "coordinates": [103.819836, 1.352083] }},
+        { "properties": { "title": "General Assembly, Singapore" }}
+    ]},
+    {"London": [
+        { "geometry": { "coordinates": [-0.127758, 51.507351] }},
+        { "properties": { "title": "General Assembly, London, UK" }}
+    ]}
+]}
